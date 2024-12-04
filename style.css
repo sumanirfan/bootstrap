@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cotainer{
+    width: 1100px;
+    margin: 0 auto;
+}
+.logo{
+    width: 130px;
+    margin: 0;
+    padding: 0;
+}
+.nav-text{
+    align-items:end;
+}
+.search-btn{
+    border: 1px solid black;
+    border-radius: 15px;
+
+}
+.search-icon{
+    width: 30px;
+    padding: 7px;
+}
+.nav-item-space{
+    margin: 0 25px;
+}
+/* ....................................................hero section......................................................... */
+.hero-section{
+    background-image: url(img/herobg3.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+    width: 100%;
+    color: white;
+    text-align: center;
+    
+}
+.hero-content{
+    background-color: rgba(40, 22, 131, 0.381);
+}
+.hero-section .hero-content h2{
+   padding-top: 130px;
+    font-size: 50px;
+}
+.hero-section .hero-content p{
+    font-size: 10px;
+}
+.start-btn{
+    padding: 9px;
+    background-color: rgb(240, 179, 24);
+    color: white;
+    border: 1px solid white;
+    margin-right:7px ;
+}
+.tour-btn{
+    padding: 9px;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    margin-bottom: 170px;
+}
+/* ........................................choes design section................................................. */
+.design-section{
+width: 100%;
+height: 500px;
+}
+.co-img{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+}
+@media screen and (max-width: 650px) {
+    .co-img {
+     display: block;
+     width: 100%;
+    }
+    .design-content{
+        width: 90%;
+        margin: 0 auto;
+        border: 1px solid black;
+    }
+    .design-img{
+        margin: 90%;
+        margin: 0 auto;
+        border: 1px solid black;
+        margin-bottom: 120px;
+    }
+  }
+.design-content{
+    width: 50%;
+    background-color: white;
+    padding: 14px;
+    margin-top: 40px;
+}
+.learn-btn{
+    padding: 9px;
+    color: rgb(6, 6, 6);
+    border: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    margin-top: 10px;
+}
+
+.design-img{
+    width: 50%;
+    padding: 14px;
+    background-color: white;
+    margin-top: 40px;
+}
+
+.img-margin{
+    margin: 15px 23px;
+}
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,card section..................................................... */
+.popular-heading{
+    border-bottom:3px solid rgb(14, 14, 61) ;
+    margin-top: 30px;
+   
+}
+.card-section{
+    margin-bottom: 60px;
+}
+.card-size{
+    margin: 28px;
+}
+.min-ago{
+    align-items: end;
+}
+/* .........................................join area............................................ */
+.join-area{
+    background-image: url(img/joinimg2.jpg);
+    width: 100%;
+    
+    margin-bottom: 150px;
+    text-align: center;
+    color: white;
+}
+.join-content{
+    background-color: rgba(40, 22, 131, 0.381);
+}
+.join-content h2{
+    padding-top: 33px;
+}
+.join-content h2 span{
+    color: rgb(252, 200, 13);
+    font-size: 65px;
+}
+.join-btn{
+    padding: 9px;
+    color: rgb(252, 200, 13);
+    border: 1px solid rgb(252, 200, 13);
+    background-color: rgba(0, 0, 0, 0.671);
+    margin-bottom: 80px;
+}
+/* ..............................................icon area............................................... */
+.icon-area{
+    background-color: rgb(216, 216, 216);
+    width: 100%;
+    text-align: center;
+}
